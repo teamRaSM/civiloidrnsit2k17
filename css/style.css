@@ -13,6 +13,11 @@ img{
 	color:black;
 
  }
+ .event{
+ 	display: flex;
+ 	width: 100%;
+ 	justify-content: space-between;
+ }
 .headcont { 	
 	position: absolute;
 	right:100px;
@@ -34,3 +39,5 @@ img{
 		background: rgba(255,255,255,0.5); 
 	}
 }
+
+
