@@ -19,8 +19,8 @@ img{
  	background-color: white;
  	animation: change infinite 5s;
  	position: absolute;
- 	top: 50vh;
- 	left:50vh;
+ 	top: 1vh;
+ 	left:1vh;
  	display: flex;
  	justify-content: center;
  	vertical-align: middle;
