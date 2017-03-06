@@ -17,6 +17,10 @@ img{
 
 
  }
+
+ .mob-head{
+ 	display: none;
+ }
  .shape{
  	height: 20vh;width: 40vh;
  	background-color: white;
@@ -37,7 +41,6 @@ img{
  	25%{
  		width: 20vh;
  		transform: rotate(0deg);
- 		content: "hello";
  		border-radius: 0px;
  		background-color: #f4c20d;
  	}
@@ -53,7 +56,7 @@ img{
  		background-color: #4885ed;
  	}
  	100%{
- 		 		transform: rotate(0deg);
+ 		transform: rotate(0deg);
  		border-radius: 0px;
  		background-color: #3cba54;s
  	}
@@ -62,6 +65,7 @@ img{
  	display: flex;
  	width: 100%;
  	justify-content: space-between;
+ 	margin-top: 50px;
  }
 .headcont { 	
 	position: absolute;
@@ -72,7 +76,9 @@ img{
 	text-align:right;
 	background: rgba(255,255,255,0); 	
 } 
-
+.secheading{
+	text-align: center;
+}
 .divhead{
 	font-size: 50px;
 }
@@ -82,7 +88,7 @@ footer{
 }
 .events img{
 
-	height:300px;
+	height:400px;
 	width:100%;
 }
 .events .im{
@@ -105,12 +111,26 @@ iframe{
 		width:100vw;
 		height:50vh;		
 	}
+	.divhead{
+		display:none;
+	}
 	.headcont{
+		text-align: center;
+		font-size: 80px;
 		width:300px;
+		position: absolute;
+		left:5px;
+		bottom: 1px;
 	}
 	iframe{
 		width:100%;
 	}
+	.mob-head{
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 40px;
+ 	font-weight:500;
+ }
 }
 
 
